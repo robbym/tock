@@ -1,0 +1,9 @@
+[package]
+name = "r41z"
+version = "0.1.0"
+authors = ["Tock Project Developers <tock-dev@googlegroups.com>"]
+
+[dependencies]
+cortexm0 = { path = "../../arch/cortex-m0" }
+kernel = { path = "../../kernel" }
+bitfield = "0.11.0"
